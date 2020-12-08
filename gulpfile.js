@@ -1,6 +1,7 @@
 const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
 let uglify = require('gulp-uglify-es').default;
+// This task is supposed to clean things
 
 function cleanTask() {
   return del('dist');
