@@ -2,6 +2,7 @@ const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
 let uglify = require('gulp-uglify-es').default;
 // This task is supposed to clean things
+const optimizeimg = require('gulp-imagemin');
 
 function cleanTask() {
   return del('dist');
@@ -25,6 +26,7 @@ function stylesTask() {
 
 function imagesTask() {
   return src('src/images/**/*')
+    .pipe(optimizeimg())
     .pipe(dest('dist/images'))
 }
 
