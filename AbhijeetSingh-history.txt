@@ -1,0 +1,72 @@
+    1  git init
+    2  git clone https://github.com/AbhijeetSinghMitt/sd130-assignment-2-repo-1.git
+    3  ls -la
+    4  cd sd130-assignment-2-repo-1
+    5  git branch issue-1
+    6  git checkout issue-1
+    7  ls 
+    8  code gulpfile.js
+    9  git switch main
+   10  git merge issue-1
+   11  git commit -am 'merged changes'
+   12  git add .
+   13  git commit -m 'merge changes'
+   14  git pull
+   15  git pull
+   16  git branch -d issue-1
+   17  cd ../
+   18  git clone https://github.com/cmacmitt/sd130-assignment-2-repo-1.git
+   19  cd sd-130-assignment-2-repo-1
+   20  cd sd130-assignment-2-repo-1
+   21  ls
+   22  cd src
+   23  ls
+   24  cd styles
+   25  ls
+   26  code styles.css
+   27  code newStyles.css
+   28  git add newStyles.css
+   29  git commit - 'add new heading colour and change fonts'
+   30  git commit -m 'add new heading colour and change fonts'
+   31  cd ../../
+   32  ls
+   33  code gulpfile.js
+   34  git add gulpfile.js
+   35  git commit -m 'update cssTask for concatenating in right order'
+   36  touch AbhijeetSingh-history.txt
+   37  history >> AbhijeetSingh-history.txt
+    1  git init
+    2  git clone https://github.com/AbhijeetSinghMitt/sd130-assignment-2-repo-1.git
+    3  git branch issue-1
+    4  ls
+    5  cd sd130-assignment-2-repo-1
+    6  git branch issue-1
+    7  git checkout issue-1
+    8  cd styles
+    9  ls
+   10* 
+   11  cd styles
+   12  code styles.css
+   13  code newStyles.css
+   14  git add .
+   15  git commit -m 'change heading color and fonts'
+   16  cd ../../
+   17  git code gulpfile.js
+   18  code gulpfile.js
+   19  git switch main
+   20  git merge issue-1
+   21  git add .
+   22  git commit -m 'merge changes'
+   23  git push
+   24  git pull
+   25  git pull https://github.com/cmacmitt/sd130-assignment-2-repo-1.git
+   26  git status
+   27  cd src
+   28  ls
+   29  cd scripts
+   30  ls
+   31  code main.js
+   32  git pull
+   33  git pull
+   34  cd ../../
+   35  history >> AbhijeetSingh-history.txt
