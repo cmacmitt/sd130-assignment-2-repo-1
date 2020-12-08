@@ -1,5 +1,6 @@
 const {src, dest, series, parallel} = require('gulp');
 const del = require('del');
+let uglify = require('gulp-uglify-es').default;
 
 function cleanTask() {
   return del('dist');
@@ -12,6 +13,7 @@ function pagesTask() {
 
 function scriptsTask() {
   return src('src/scripts/**/*.js')
+    .pipe(uglify())
     .pipe(dest('dist/js'));
 }
 
