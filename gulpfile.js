@@ -4,6 +4,8 @@ let uglify = require('gulp-uglify-es').default;
 // This task is supposed to clean things
 const optimizeimg = require('gulp-imagemin');
 
+// This task is supposed to clean things
+
 function cleanTask() {
   return del('dist');
 }
@@ -19,8 +21,8 @@ function scriptsTask() {
     .pipe(dest('dist/js'));
 }
 
-function stylesTask() {
-  return src('src/styles/**/*.css')
+function stylesTask() { 
+  return src (['src/styles/styles.css', 'src/styles/newStyles.css'])
     .pipe(dest('dist/css'))
 }
 
