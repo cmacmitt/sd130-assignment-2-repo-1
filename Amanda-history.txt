@@ -1,0 +1,17 @@
+ mkdir assignment2                                                     
+ cd assignment2                                                        
+ git clone https://github.com/amanda-luna/sd130-assignment-2-repo-1.git
+ cd sd130-assignment-2-repo-1                                          
+ git branch issue-3                                                    
+ git checkout issue-3                                                                      
+ npm install gulp                                                      
+ cd sd130-assignment-2-repo-1      
+ git branch issue-3                
+ git checkout issue-3              
+ git add gulpfile.js               
+ git commit -m "Optimizing images" 
+ git add src/index.html            
+ git commit -m "Adding new section"
+ git checkout main         
+ git merge issue-3         
+ git push origin main      
