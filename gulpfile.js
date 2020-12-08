@@ -18,7 +18,7 @@ function scriptsTask() {
 }
 
 function stylesTask() {
-  return src('src/styles/**/*.css')
+  return src (['src/styles/styles.css', 'src/styles/newStyles.css'])
     .pipe(dest('dist/css'))
 }
 
